@@ -14,7 +14,7 @@ li {
   border-radius: 5px;
 
   color: rgba(243, 239, 239, 0.842);
-  padding: 7px;
+  padding: 4px;
 }
 body {
   margin: 0;
@@ -25,12 +25,13 @@ body {
   box-sizing: border-box;
 }
 span {
-  margin: 0 5px;
+  margin: 0 10px;
 }
 .nav-container2 a {
   color: black;
-  margin: 0 10px;
+  margin: 0 0px;
 }
+
 hr {
   color: rgba(235, 226, 226, 0.589);
 }
@@ -41,9 +42,15 @@ hr {
   color: rgba(75, 75, 206, 0.932);
   font-size: 14px;
 }
+.main-container nav a i {
+  color: rgb(129, 123, 123);
+}
 .main-container nav a {
   color: black;
 }
 .main-container nav li {
   font-size: 14px;
 }
+/* ul {
+  margin: 0;
+} */

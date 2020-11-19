@@ -36,7 +36,7 @@
             </div>
 
             <div style="flex-basis: ">
-              <nav class="nav-container">
+              <nav style="padding: auto ;" class="nav-container">
                 <ul>
                   <li><a href="#"> Pull requests</a></li>
                   <li><a href="#"> Issues</a></li>
@@ -71,17 +71,30 @@
             <h2 style="color: rgba(5, 5, 5, 0.795)">Merit Oriaghemuoria</h2>
             <p style="color: rgba(109, 106, 106, 0.842)">Toriiaa</p>
             <p>an innovative and dedicated FrontEnd developer</p>
+            <button
+              style="
+                width: 80%;
+                padding: 5px;
+                border-radius: 8px;
+                background-color: white;
+                border-color: none;
+              "
+            >
+              Edit Profile
+            </button>
           </div>
           <div style="flex-basis: 60%" class="second-flex-container">
             <div>
               <nav class="nav-container2">
                 <ul>
                   <li>
-                    <a href="#"> <span></span> Overview</a>
+                    <a href="#">
+                      <span><i class="fas fa-book-open"></i></span> Overview</a
+                    >
                   </li>
                   <li>
                     <a href="#">
-                      <span></span> Repositories
+                      <span><i class="fas fa-book"></i></span> Repositories
                       <span
                         style="
                           border-radius: 70px;
@@ -94,14 +107,20 @@
                     >
                   </li>
                   <li>
-                    <a href="#"> <span></span> Projects</a>
+                    <a href="#">
+                      <span><i class="fas fa-book"></i></span> Projects</a
+                    >
                   </li>
                   <li>
-                    <a href="#"> <span></span> Packages</a>
+                    <a href="#">
+                      <span class=""><i class="fas fa-dice-d6"></i></span>
+                      Packages</a
+                    >
                   </li>
                 </ul>
               </nav>
             </div>
+            <hr />
             <div>
               <input
                 style="width: 60%; border-radius: 8px; padding: 4px"
@@ -109,7 +128,7 @@
                 placeholder=" Find a repository"
               />
               <!-- <input type="select" placeholder="" /> -->
-              <select style="border-radius: 8px">
+              <select style="border-radius: 8px; padding: 4px">
                 <option>Type of: All</option>
                 <option>Public</option>
                 <option>Private</option>
@@ -128,7 +147,7 @@
                   background-color: green;
                   border-radius: 8px;
                   color: white;
-                  padding: 6px;
+                  padding: 6px 10px;
                 "
               >
                 <a style="color: white" href="#"> New</a>
